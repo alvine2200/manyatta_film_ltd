@@ -14,11 +14,11 @@
 
 	<header>
 
-		<a href="#"  class="logo"><img src="images/model logo.png"><p>Manyatta agency</p></a>
+		<a href="#"  class="logo"><img src="images/model logo.png"><p>TMA agency</p></a>
 
 		<nav class="navbar">
-			<a class="active" href="#home">home</a>
-			<a href="#models">models</a>
+			<a class="active" href="{{url('/')}}">home</a>
+			<a href="{{url('models')}}">models</a>
 			<a href="#about">about</a>
 			<a href="#review">review</a>
 			<a href="#contact_us">contact us</a>

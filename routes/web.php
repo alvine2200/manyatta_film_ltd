@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ModelsController;
 use App\Http\Controllers\User\HomeController;
 
 /*
@@ -13,9 +14,12 @@ use App\Http\Controllers\User\HomeController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+/*
 Route::get('/', function () {
     return view('index');
 });
+*/
 
-Route::any('index',[HomeController::class,'index']);
+Route::any('/',[HomeController::class,'index']);
+
+Route::any('models',[ModelsController::class,'models']);
