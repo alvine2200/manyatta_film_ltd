@@ -12,38 +12,9 @@
 <body>
  <!--header starts-->
 
-	<header>
-
-		<a href="#"  class="logo"><img src="images/model logo.png"><p>TMA agency</p></a>
-
-		<nav class="navbar">
-			<a class="active" href="{{url('/')}}">home</a>
-			<a href="{{url('models')}}">models</a>
-			<a href="#about">about</a>
-			<a href="#review">review</a>
-			<a href="#contact_us">contact us</a>
-		</nav>
-
-		<!-- <div class="icons">
-			<i class="fas fa-bars" id="menu-bars"></i>
-			<i class="fas fa-search" id="search-icon"></i>
-			<a href="#" class="fas fa-heart"></a>
-			<a href="#" class="fas fa-shopping-cart"></a>
-		</div> -->
-
-	</header>
-
+	@include('user.navbar');
 
  <!--header ends-->
-
- <!--search form starts-->
- <form action="" method="post" id="search-form">
- 	<input type="search" placeholder="search here..." id="search-box" name="">
- 	<label for="search-box" class="fas fa-search"></label>
- 	<i class="fas fa-times" id="close"></i>
- </form>
- <!--search form ends-->
-
 
  <<!--home section starts-->
 <section class="home" id="home">
@@ -130,6 +101,7 @@
 <h1 class="heading">contact us today to get intouch with our models</h1>
 
 <form action="" method="post">
+    @csrf
    <div class="inputBox">
 	<div class="input">
 		<span>name</span>
