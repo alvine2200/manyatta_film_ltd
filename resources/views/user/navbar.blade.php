@@ -20,7 +20,6 @@
 			<a class="active" href="{{ url('/')}}">home</a>
 			<a href="{{url('models')}}">models</a>
 			<a href="#about">about</a>
-			<a href="#review">review</a>
 			<a href="#contact_us">contact us</a>
 		</nav>
 

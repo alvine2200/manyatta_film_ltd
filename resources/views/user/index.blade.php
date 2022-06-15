@@ -46,6 +46,74 @@
 	<h3 class="sub-heading">our models</h3>
 	<h1 class="heading">popular models</h1>
 
+    <div  class="flex-container">
+        <div class="row">
+            <div class="image">
+                <img src="images/model2.jpg" class="img-responsive" alt="img">
+               <div class="description">
+                  <span>
+                     <h3 style="font-size:20px !Important">Aleisha Amanda</h3>
+                  </span>
+
+                   <h4 style="font-size:13px !Important">Commercial Model</h4>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/model2.jpg" class="img-responsive" alt="img">
+               <div class="description">
+                  <span>
+                     <h3 style="font-size:20px !Important">Aleisha Amanda</h3>
+                  </span>
+
+                   <h4 style="font-size:13px !Important">Commercial Model</h4>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/model2.jpg" class="img-responsive" alt="img">
+               <div class="description">
+                  <span>
+                     <h3 style="font-size:20px !Important">Aleisha Amanda</h3>
+                  </span>
+
+                   <h4 style="font-size:13px !Important">Commercial Model</h4>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/model2.jpg" class="img-responsive" alt="img">
+               <div class="description">
+                  <span>
+                     <h3 style="font-size:20px !Important">Aleisha Amanda</h3>
+                  </span>
+
+                   <h4 style="font-size:13px !Important">Commercial Model</h4>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/model2.jpg" class="img-responsive" alt="img">
+               <div class="description">
+                  <span>
+                     <h3 style="font-size:20px !Important">Aleisha Amanda</h3>
+                  </span>
+
+                   <h4 style="font-size:13px !Important">Commercial Model</h4>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/model2.jpg" class="img-responsive" alt="img">
+               <div class="description">
+                  <span>
+                     <h3 style="font-size:20px !Important">Aleisha Amanda</h3>
+                  </span>
+
+                   <h4 style="font-size:13px !Important">Commercial Model</h4>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
 
 </section>
 
@@ -129,46 +197,7 @@
 <!--order section ends-->
 
 <!--footer section starts-->
-<section class="footer" id="footer">
-	<div class="box-container">
-		<div class="box">
-			<h3>locations</h3>
-			<a href="#">nairobi</a>
-			<a href="#">mombasa</a>
-			<a href="#">kisumu</a>
-			<a href="#">nakuru</a>
-			<a href="#">kakamega</a>
-		</div>
-		<div class="box">
-			<h3>quick links</h3>
-			<a href="#">home</a>
-			<a href="#">models</a>
-			<a href="#">about</a>
-			<a href="#">contact us</a>
-			<a href="#">order</a>
-		</div>
-		<div class="box">
-			<h3>contact info</h3>
-			<a href="#">+2547 121 356 43</a>
-			<a href="#">+2547 128 639 95</a>
-			<a href="#">+2547 121 058 43</a>
-			<a href="#">alvinellavu@gmail.com</a>
-			<a href="#">agandagracious@gmail.com</a>
-		</div>
-
-		<div class="box">
-			<h3>follow us</h3>
-			<a href="#">facebook</a>
-			<a href="#">instagram</a>
-			<a href="#">linkedln</a>
-			<a href="#">twitter</a>
-
-		</div>
-
-	</div>
-	<div class="credit">copyright @ {{now()->format('Y')}}</div> by <span>Alvine Llavu</span></div>
-</section>
-
+ @include('user.footer');
 
 <!--footer section ends-->
 

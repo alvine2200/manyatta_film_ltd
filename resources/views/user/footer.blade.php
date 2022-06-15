@@ -12,7 +12,7 @@
 <body>
  <!--footer starts-->
 
- <section class="footer" id="footer">
+ <section style="background-color:rgb(227, 223, 223)" class="footer" id="footer">
 	<div class="box-container">
 		<div class="box">
 			<h3>locations</h3>
