@@ -14,7 +14,7 @@
 
 	<header>
 
-		<a href="{{url('/')}}"  class="logo"><img src="images/model logo.png"><p>TMA agency</p></a>
+		<a href="{{url('/')}}"  class="logo"><img src="images/model logo.png"><p>TMA</p></a>
 
 		<nav class="navbar">
 			<a class="active" href="{{ url('/')}}">home</a>
